@@ -4,41 +4,101 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
-    padding: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    border: solid red;
 }
+
+
+
+
 
 ul{
     display: flex;
     list-style-type: none;
     margin: 0;
     gap: 8px;
-    font-size: 12px;
+    font-size: 18px;
     padding: 8px;
+    padding-top: 0px;
+    border: solid red;
+}
+.heroLeft, .heroRight{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 100px;
+    padding-top:20px;
+    border: solid red; 
+    padding-right:100px;
+    margin: 50px;
+    margin-top: 40px;
+
+}
+
+
+
+.heroRight{
+    justify-content: center;
+    align-items: center;
+    border: solid red;
+    background-color: gray;
+ 
+}
+.heroLeft{
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 0px;
+    border: solid red;
+    align-items: flex-start;
+
+
 }
 
 .hero{
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
     color: #E5E7EB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    border: solid red;
+    padding: 100px;
     
 }
 .heroTitle{
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
+    margin-bottom: 20px;
+    border: solid red;
+    display: flex;
+    flex: 1;
+
 }
 
 button{
     background-color: #3882F6;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color: #3882F6;
+    max-width: 70px;
+    margin-top:20px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: solid red;
 }
